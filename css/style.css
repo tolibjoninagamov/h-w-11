@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.title {
+  
+  text-align: center;
+  background-color: #fff;
+ align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  width: 100%;
+ border: 1px solid rgb(216, 216, 216);
+  
+}
+.nav-llink{
+ 
+  display: flex;
+ 
+  padding-left: 7px;
+  color: #6e6d7a;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+text-decoration: none;
+}
+.nav_link {
+  padding: 0 15px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: #6e6d7a;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+text-decoration: none;
+font-weight: 600;
+
+}
+img{
+  color: #000;
+}
+.logo{
+margin-right: 10px;
+  margin-left: 24px;
+  color: #9e9ea7;
+    vertical-align: middle;
+    width: 76px;
+    height: 80px;
+    fill: none;
+}
+.nav_logo {
+  color: #a2a2aa
+}
+.input {
+  border: 1px solid transparent;
+width: 115px;
+height: 38px;
+border-radius: 5px;
+  margin-left: 465%; 
+  background-color: #f3f3f4;
+ align-items: center;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+.fa-search:before{
+   color: #a2a2aa;
+  position: absolute;
+  top: 4.7%;
+  left: 77.3%;
+  font-size: 70%;
+  align-items: center;
+} 
+.fa-moon:before{
+  position: absolute;
+  left: 86%;
+  top: 4.4%;
+color: #6e6d7a;
+}
+
+.logot{
+  border-radius: 50%;
+  position: absolute;
+  top: 3.5%;
+  left: 89%;
+}
+.button{
+  color: #fff;
+  background-color: #ea4c89;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 8px;
+  position: absolute;
+  top: 2.8%;
+  left: 92.5%;
+  height: 40px;
+  width: 85px;
+  padding: 10px 16px;
+outline: none;
+}
+h3{
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  position: absolute;
+  top: 12.5%;
+  left: 22%;
+
+}
